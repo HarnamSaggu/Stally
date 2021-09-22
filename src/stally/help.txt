@@ -1,0 +1,15 @@
+<   moves head left
+>   moves head right
+;   halt
+{,} if statement
+[]  while
++   writes 1
+-   writes 0
+!   prints bit
+*   inputs bit
+@   changes tape
+"a" prints utf8 text
+£   prints utf8 of cells
+$   prints decimal of cells
+&   inputs binary number via decimal input
+^   moves head index
