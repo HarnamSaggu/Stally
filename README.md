@@ -1,7 +1,10 @@
 # Stally
-A quite terrible but complete language i made,
+A quite terrible but complete* language i made,
 it sucks balls to code in but it works kinda (no error messages), it has functions, and a very interesting choice of i/o.
 its a bad language but the goal was to design a workable language. i dont know much about language design (parsing scares me) but i tried so welp
+<br>
+*not so sure about that anymore
+<br>
 
 Code for it looks kinda cool in a strange way:
 e.g. 
