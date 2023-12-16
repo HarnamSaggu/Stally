@@ -9,6 +9,7 @@ its a bad language but the goal was to design a workable language. i dont know m
 Code for it looks kinda cool in a strange way:
 e.g. 
 
+```
 ^4 {
     ^3 {^23 +,}
     ^2 {^22 +,}
@@ -20,7 +21,9 @@ e.g.
 ^10 {^14 {^31 {^30 + ^27 +, ^30 +}, ^31 {^30 +, ^27 +}}, ^14 {^31 {^30 +, ^27 +}, ^31 {^27 +,}}}
 ^9  {^13 {^30 {^29 + ^26 +, ^29 +}, ^30 {^29 +, ^26 +}}, ^13 {^30 {^29 +, ^26 +}, ^30 {^26 +,}}}
 ^8  {^12 {^29 {^24 + ^25 +, ^24 +}, ^29 {^24 +, ^25 +}}, ^12 {^29 {^24 +, ^25 +}, ^29 {^25 +,}}}
+```
 
+```
 <   moves head left
 >   moves head right
 ;   halt (;0 is exit code 0)
@@ -36,3 +39,4 @@ e.g.
 $   prints decimal of cells
 &   inputs binary number via decimal input
 ^   moves head index
+```
